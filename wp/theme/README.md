@@ -1,3 +1,7 @@
+---
+supportType: "slide"
+---
+
 # Theme & Child Theme
 
 <section class="slides">
