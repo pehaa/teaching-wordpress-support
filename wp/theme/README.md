@@ -1,6 +1,8 @@
 # Theme & Child Theme
 
+<section class="slides">
 <section class="slide">
+  <div class="slide-inner">
 
 ## Thème
 
@@ -9,4 +11,6 @@
 - un seul thème peut être activé
 - un site n’existe pas sans thème
 
+  </div>
+</section>
 </section>
