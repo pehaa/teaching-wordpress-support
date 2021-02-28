@@ -1,10 +1,16 @@
 ---
 supportType: "slide"
+title: "Theme & Child Theme"
 ---
+
+<section class="slides">
+<header class="slide">
+<div>
 
 # Theme & Child Theme
 
-<section class="slides">
+</div>
+</header>
 <section class="slide">
   <div class="slide-inner">
 
