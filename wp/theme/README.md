@@ -7,6 +7,8 @@ title: "Theme & Child Theme"
 <header class="slide">
 <div>
 
+![](https://wptemplates.pehaa.com/assets/cat.jpg)
+
 # Theme & Child Theme
 
 </div>
