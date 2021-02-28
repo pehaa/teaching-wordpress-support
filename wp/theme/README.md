@@ -13,4 +13,24 @@
 
   </div>
 </section>
+<section>
+<div>
+
+## Architecture d'un thème
+
+### fichier functions.php
+
+Un cerveau du thème, écrit en php
+
+### fichiers templates (modèles)
+
+- page.php
+- single.php
+- index.php
+  …
+
+un mixte de php (fonctions de WordPress) et html + appels aux fichiers _“sous-templates”_
+
+</div>
+</section>
 </section>
