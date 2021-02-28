@@ -17,20 +17,27 @@ supportType: "slide"
 
   </div>
 </section>
+
 <section>
 <div>
 
 ## Architecture d'un thème
 
-### fichier functions.php
+peut varier mais contient des éléments :
 
-Un cerveau du thème, écrit en php
+## fichier `style.css`
+
+Un papier d’identité d’un thème + les styles
+
+### fichier `functions.php`
+
+Un cerveau du thème, écrit en PHP
 
 ### fichiers templates (modèles)
 
-- page.php
-- single.php
-- index.php
+- `page.php`
+- `single.php`
+- `index.php`
   …
 
 un mixte de php (fonctions de WordPress) et html + appels aux fichiers _“sous-templates”_
