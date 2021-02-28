@@ -18,7 +18,7 @@ supportType: "slide"
   </div>
 </section>
 
-<section>
+<section class="slide">
 <div>
 
 ## Architecture d'un thème
@@ -44,7 +44,7 @@ un mixte de php (fonctions de WordPress) et html + appels aux fichiers _“sous-
 
 </div>
 </section>
-<section>
+<section class="slide">
 <div>
 
 ## Hierarchie des templates
@@ -52,7 +52,7 @@ un mixte de php (fonctions de WordPress) et html + appels aux fichiers _“sous-
 </div>
 </section>
 
-<section style="background-color: magenta">
+<section class="slide" style="background-color: magenta">
 <div>
 
 ## Et si je voulais modifier mon thème ???? 🤔
