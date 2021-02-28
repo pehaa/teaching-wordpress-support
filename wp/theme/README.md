@@ -25,7 +25,7 @@ supportType: "slide"
 
 peut varier mais contient des éléments :
 
-## fichier `style.css`
+### fichier `style.css`
 
 Un papier d’identité d’un thème + les styles
 
@@ -44,4 +44,20 @@ un mixte de php (fonctions de WordPress) et html + appels aux fichiers _“sous-
 
 </div>
 </section>
+<section>
+<div>
+
+## Hierarchie des templates
+
+</div>
+</section>
+
+<section style="background-color: magenta">
+<div>
+
+## Et si je voulais modifier mon thème ???? 🤔
+
+</div>
+</section>
+
 </section>
