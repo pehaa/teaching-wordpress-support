@@ -1,9 +1,9 @@
 ---
 supportType: "normal"
-title: "Sélecteurs CSS - Résolutions de conflits"
+title: "Sélecteurs CSS - Résolution de conflits"
 ---
 
-# Sélecteurs CSS - Résolutions de conflits
+# Sélecteurs CSS - Résolution de conflits
 
 Avec tous ces types de sélecteurs et la possibilité de les combiner, il est clair que les éléments peuvent être ciblés à plusieurs manières.
 
