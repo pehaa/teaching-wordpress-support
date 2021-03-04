@@ -6,6 +6,7 @@
 ## CSS pour CMS
 
 - [Selecteurs CSS](./css/css-selecteurs)
+- [Selecteurs CSS - Résolution des conflits](./css/css-specificite)
 <!---
 
 ## WooCommerce
