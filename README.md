@@ -3,7 +3,11 @@
 - [Introduction](./wp/introduction)
 - [Theme & Child Theme](./wp/theme)
 
+## CSS pour CMS
+
+- [Selecteurs CSS](./css/css-selecteurs)
 <!---
+
 ## WooCommerce
 
 - [CSS - Introduction](./css/premiers-pas)
@@ -12,7 +16,7 @@
 - [Typographie](./css/typographie)
 
 - [RWD](./css/rwd)
-- [Selecteurs CSS](./css/css-selecteurs)
+
 - [Flexbox](./css/flexbox)
 - [Grid](./css/grid)
 - [Position & z-index](./css/position-z-index)
