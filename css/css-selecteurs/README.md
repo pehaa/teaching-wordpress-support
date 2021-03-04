@@ -415,12 +415,3 @@ https://codepen.io/alyra/pen/NWxGzbv
 
 [et l'affrontement final :](https://codepen.io/pehaa/debug/dEpvXN)
 [![](https://wptemplates.pehaa.com/assets/alyra/quiz-selectors3.png)](https://codepen.io/pehaa/debug/dEpvXN)
-
-## Exercices
-
-👉 Dans tous ces exercices, NE TOUCHEZ PAS AU HTML et privilegier les unités `rem` 👈
-
-- [Selectors - sac à dos](https://codepen.io/alyra/pen/RwrPqYe)
-- [Selectors - Statistiques](https://codepen.io/alyra/pen/JjGdeLy)
-- [Selectors - damier](https://codepen.io/alyra/pen/MWKwzZe)
-- [Selectors - lorem](https://codepen.io/alyra/pen/gOPpQVJ)
