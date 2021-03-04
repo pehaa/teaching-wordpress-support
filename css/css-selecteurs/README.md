@@ -1,3 +1,8 @@
+---
+supportType: "normal"
+title: "Sélecteurs CSS"
+---
+
 # Sélecteurs CSS
 
 Bien sélectionner les éléments pour changer leurs propriétés CSS est une partie importante de notre apprentissage.
