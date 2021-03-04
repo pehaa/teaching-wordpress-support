@@ -11,8 +11,12 @@ title: "Theme & Child Theme"
 
 # Theme & Child Theme
 
+Coming sooooooon.....
+
 </div>
 </header>
+
+<!---
 <section class="slide">
   <div class="slide-inner">
 
@@ -67,5 +71,7 @@ un mixte de php (fonctions de WordPress) et html + appels aux fichiers _“sous-
 
 </div>
 </section>
+
+-->
 
 </section>
