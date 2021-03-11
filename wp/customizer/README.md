@@ -112,6 +112,13 @@ function gridbox_child_add_stuff_to_customizer( $wp_customize ) {
 }
 ```
 
+```php
+/* header.php */
+<div class="sponsor-info">
+  <?php echo get_theme_mod( 'gridbox_child_info_sponsor' ); ?>
+</div>
+```
+
 ## Exemple 2 (plus sécurisé)
 
 ```php
