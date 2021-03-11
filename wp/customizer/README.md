@@ -1,11 +1,13 @@
 ---
 supportType: "normal"
-title: "Child Theme & la barre Personalizer"
+title: "WP Customizer"
 ---
 
 
 
-# Child Theme
+# Child Theme & WP Customizer
+
+![](https://wptemplates.pehaa.com/assets/brioche-cannelle-customizer.png)
 
 Nous pouvons ajouter nos propres options via la panel Personnaliser, voici comment l'activer :
 
@@ -16,7 +18,7 @@ Nous pouvons ajouter nos propres options via la panel Personnaliser, voici comme
   function my_child_theme_stuff_to_customizer( $wp_customize ) { /* .... */ }
 ```
 
-Ensuite dans la fonction `my_child_theme_stuff_to_customizer` nous allons ajouter une notre propre section et notre propre champs qui permettent d'enregister nos propres règlages.
+Ensuite dans la fonction `my_child_theme_add_stuff_to_customizer` nous allons ajouter une notre propre section et notre propre champs qui permettent d'enregister nos propres règlages.
 
 
 ```php
