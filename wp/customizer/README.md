@@ -64,6 +64,8 @@ function my_child_theme_add_stuff_to_customizer( $wp_customize ) {
 - `wp_filter_nohtml_kses` - filtre html et enlève tous les tags HTML
 - `esc_url_raw` - filtre un url
 
+[(vous trouverez plus d'options ici)](https://divpusher.com/blog/wordpress-customizer-sanitization-examples/)
+
 
 ## Comment "Consommer" l'option dans le template ?
 
@@ -113,6 +115,9 @@ function gridbox_child_add_stuff_to_customizer( $wp_customize ) {
 		);
 }
 ```
+
+✨ Le `selective_refresh` permet d'avoir l'apperçu directement au moment du saisi.
+
 
 ```php
 /* header.php */
