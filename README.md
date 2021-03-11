@@ -2,6 +2,7 @@
 
 - [Introduction](./wp/introduction)
 - [Theme & Child Theme](./wp/theme)
+- [WP Customizer](./wp/customizer)
 
 ## CSS pour CMS
 
