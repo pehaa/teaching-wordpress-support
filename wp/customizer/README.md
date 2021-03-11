@@ -9,7 +9,7 @@ title: "WP Customizer"
 
 ![](https://wptemplates.pehaa.com/assets/brioche-cannelle-customizer.png)
 
-Nous pouvons ajouter nos propres options via la panel Personnaliser, voici comment l'activer :
+Nous pouvons ajouter **nos propres options** via la panel _Personnaliser._  Voici comment l'activer :
 
 
 ```php
@@ -18,7 +18,7 @@ Nous pouvons ajouter nos propres options via la panel Personnaliser, voici comme
   function my_child_theme_stuff_to_customizer( $wp_customize ) { /* .... */ }
 ```
 
-Ensuite dans la fonction `my_child_theme_add_stuff_to_customizer` nous allons ajouter une notre propre section et notre propre champs qui permettent d'enregister nos propres règlages.
+Ensuite dans la fonction `my_child_theme_add_stuff_to_customizer` nous allons ajouter notre propre section et nos propres champs qui permettent d'enregister nos propres règlages dans la base de données.
 
 
 ```php
@@ -43,6 +43,8 @@ function my_child_theme_add_stuff_to_customizer( $wp_customize ) {
     )
   );
 
+  /* ici  j'ajoute un control (autrement dit un champ input, textarea, select etc.) qui permettra à enregistrer notre setting */
+
   $wp_customize->add_control(
     'my_child_theme_custom_setting',
     array(
@@ -66,7 +68,7 @@ function my_child_theme_add_stuff_to_customizer( $wp_customize ) {
 ## Comment "Consommer" l'option dans le template ?
 
 ```php
-<?php echo get_theme_mod( my_child_theme_custom_setting ); ?>
+<?php echo get_theme_mod( 'my_child_theme_custom_setting' ); ?>
 ```
 
 ## Exemple 1 
