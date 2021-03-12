@@ -32,7 +32,7 @@ Un site WordPress est composé de plusieurs “projets” (thème et plusieurs e
 
 ---
   
-Le fichiers `.po` sont compilés en fichiers binaires `.mo` (*Machine Object*)  
+Les fichiers `.po` sont compilés en fichiers binaires `.mo` (*Machine Object*)  
   
 ---
   
