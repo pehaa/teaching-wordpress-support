@@ -21,6 +21,8 @@ Un site WordPress est composé de plusieurs “projets” (thème et plusieurs e
 ---
   
 👉 Premièrement, un fichier modèle (template, fichier `POT`) est créé. Ce fichier aura l’extension `.pot` (*Portable Object Template*). Il comprendra tous les chaines   de caractères à traduire, extraites de tous les fichiers au sein d’un projet.  
+
+![](https://wptemplates.pehaa.com/assets/pot.png)
   
 ---
   
@@ -43,6 +45,8 @@ Afin de générer le fichier `.POT` et ensuite les fichiers `.po` et `.mo` pour 
 
 
 Ensuite, dans Themes, nous allons choisir “Astra Child Simplon” et clicker “Créer un modèle” - nous allons ainsi générer le fichier POT.
+
+![](https://wptemplates.pehaa.com/assets/create-pot.png)
 
 
 Une fois fichier POT créé, nous allons ajouter une nouvelle langue (Dans Themes > Astra Child Simplon cliquer Nouvelle langue)
