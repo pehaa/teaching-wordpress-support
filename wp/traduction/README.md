@@ -1,9 +1,9 @@
 ---
 supportType: "normal"
-title: "Traduction"
+title: "Traductions"
 ---
 
-# 🇫🇷Traduction
+# 🇫🇷Traductions
 
 ## Introduction théorique
 
