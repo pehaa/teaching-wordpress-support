@@ -28,6 +28,8 @@ Un site WordPress est composé de plusieurs “projets” (thème et plusieurs e
   
 👉 Le fichier POT sera utilisé pour créer les fichier `.po` (*Portable Object*) pour chaque langue de traduction (par exemple `fr_FR.po`, `de_DE.po`, etc.)  
   
+![](https://wptemplates.pehaa.com/assets/po.png)
+
 ---
   
 Le fichiers `.po` sont compilés en fichiers binaires `.mo` (*Machine Object*)  
@@ -51,5 +53,6 @@ Ensuite, dans Themes, nous allons choisir “Astra Child Simplon” et clicker �
 
 Une fois fichier POT créé, nous allons ajouter une nouvelle langue (Dans Themes > Astra Child Simplon cliquer Nouvelle langue)
 
+![](https://wptemplates.pehaa.com/assets/loco.png)
 
 Une fois le bouton “Save” appuyé la traduction des chaines de caractères des fichiers .php est prise en compte.
