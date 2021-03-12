@@ -18,19 +18,19 @@ Un site WordPress est composé de plusieurs “projets” (thème et plusieurs e
   
 ✅ Dans notre cas, le *text domain* est `"astra-child-simplon"` et nous mettons tous nos textes ainsi : `__( "I should be translated", "astra-child-simplon" )`  
   
-⬇️  
+---
   
 👉 Premièrement, un fichier modèle (template, fichier `POT`) est créé. Ce fichier aura l’extension `.pot` (*Portable Object Template*). Il comprendra tous les chaines   de caractères à traduire, extraites de tous les fichiers au sein d’un projet.  
   
-⬇️    
+---
   
 👉 Le fichier POT sera utilisé pour créer les fichier `.po` (*Portable Object*) pour chaque langue de traduction (par exemple `fr_FR.po`, `de_DE.po`, etc.)  
   
-⬇️   
+---
   
 Le fichiers `.po` sont compilés en fichiers binaires `.mo` (*Machine Object*)  
   
-⬇️  
+---
   
 Les fichiers `.mo` sont utilisés par WordPress pour assembler le document HTML selon la langue du site.  
   
