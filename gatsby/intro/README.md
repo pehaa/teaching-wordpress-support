@@ -126,15 +126,19 @@ Soyez créatif, allez si loin que vous pouvez avec ce projet!
 
 - Navigation
 - Tagline
-- Widgets - reproduire WordPress widgets avec React et GraphQL static query
+- Personnaliser la Bio
+- Personnaliser le Footer
+- Modifier les styles - pourquoi pas articles dans une grille ?  
+   Vous pouvez écrire CSS ou installer et utiliser une librairie (Bootstrap par exemple)
+- Modifier la typo (astuce - vous pouvez installer les typos avec le package typefaces[https://www.npmjs.com/package/typefaces], ensuite il faudra les importer dans le fichier `gatsby-browser.js` (remplacer Merriweather et Montserrat) et utiliser quelque part dans votre stylesheet)
+- Ajouter un sidebar et des widgets - reproduire WordPress widgets avec React et GraphQL static query
   - Recent Posts
   - Tags
   - Categories
-- Personnaliser la Bio
-- Personnaliser le Footer
-- Modifier les style - pourquoi pas articles dans une grille ? Vous pouvez écrire CSS ou installer et utiliser une librairie (Bootstrap par exemple)
+- Toute créativité est bienvenue !!! 😍
 
 A rendre:
 
 - lien vers repo GitHub
 - line vers le site publié (Netlify)
+- présentation du projet (10 minutes par binômes)
