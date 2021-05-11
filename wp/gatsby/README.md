@@ -35,7 +35,12 @@ https://codepen.io/pehaa/pen/zYZvwEG
 
 ## WordPress avec Gatsby Framework
 
-Installation :
+Sur le site WordPress nous devons installer 2 plugins :
+
+- [`WPGraphQL`](https://www.wpgraphql.com/)
+- [`WPGatsby`](https://wordpress.org/plugins/wp-gatsby/)
+
+En local nous devons installer `gatsby-cli`
 
 ```bash
 npm add -g gatsby-cli
