@@ -4,15 +4,13 @@
 - [Theme & Child Theme](./wp/theme)
 - [WP Customizer](./wp/customizer)
 - [Traductions](./wp/traduction)
+- [Gatsby - Intro](./wp/gatsby/)
 
 ## CSS pour CMS
 
 - [Selecteurs CSS](./css/css-selecteurs)
 - [Selecteurs CSS - Résolution des conflits](./css/css-specificite)
 
-## Gatsby
-
-- [Gatsby - Intro](./gatsby/intro)
 <!---
 
 ## WooCommerce
