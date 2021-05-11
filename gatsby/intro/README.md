@@ -49,7 +49,8 @@ gatsby new my-wordpress-gatsby-site https://github.com/pehaa/my-wordpress-gatsby
 
 `http://localhost:8000`
 
-`http://localhost:8000/__graphql`
+Ici vous pouvez "préparer" vos queries :
+`http://localhost:8000/___graphql`
 
 ### Utilisation de static queries
 
@@ -130,14 +131,14 @@ Soyez créatif, allez si loin que vous pouvez avec ce projet!
 - Personnaliser le Footer
 - Modifier les styles - pourquoi pas articles dans une grille ?  
    Vous pouvez écrire CSS ou installer et utiliser une librairie (Bootstrap par exemple)
-- Modifier la typo (astuce - vous pouvez installer les typos avec le package typefaces[https://www.npmjs.com/package/typefaces], ensuite il faudra les importer dans le fichier `gatsby-browser.js` (remplacer Merriweather et Montserrat) et utiliser quelque part dans votre stylesheet)
+- Modifier la typo (astuce - vous pouvez installer les typos avec le package [typefaces](https://www.npmjs.com/package/typefaces), ensuite il faudra les importer dans le fichier `gatsby-browser.js` (remplacer _Merriweather_ et _Montserrat_) et utiliser quelque part dans votre stylesheet)
 - Ajouter un sidebar et des widgets - reproduire WordPress widgets avec React et GraphQL static query
   - Recent Posts
   - Tags
   - Categories
 - Toute créativité est bienvenue !!! 😍
 
-A rendre:
+À rendre:
 
 - lien vers repo GitHub
 - line vers le site publié (Netlify)
