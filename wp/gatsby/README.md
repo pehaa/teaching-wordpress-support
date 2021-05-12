@@ -210,3 +210,13 @@ import "./src/css/style.scss"
 ```
 
 Redémarrez le serveur.
+
+## Images statiques
+
+Pour utiliser des images statiques (les images qui ne sont pas chargées depuis WordPress), ajoutez les dans le dossier `static`
+
+Ensuite, dans n'importe quel components vous pouvez les utiliser comme ci-dessous :
+
+```js
+<img src="/nom-de-fichier-dans-le-dossier-static" alt="" />
+```
