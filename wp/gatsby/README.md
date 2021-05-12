@@ -218,5 +218,5 @@ Pour utiliser des images statiques (les images qui ne sont pas chargées depuis 
 Ensuite, dans n'importe quel components vous pouvez les utiliser comme ci-dessous :
 
 ```js
-<img src="/nom-de-fichier-dans-le-dossier-static" alt="" />
+<img src="/nom-de-fichier-dans-le-dossier-static.jpg" alt="" />
 ```
