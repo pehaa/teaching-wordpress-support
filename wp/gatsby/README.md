@@ -148,3 +148,65 @@ Soyez créatif, allez si loin que vous pouvez avec ce projet!
 - lien vers repo GitHub
 - line vers le site publié (Netlify)
 - présentation du projet (10 minutes par binômes)
+
+## Sass
+
+Si vous préferez `sass` que `css`, installez le ainsi que le plugin `gatsby-plugin-sass`
+
+```bash
+npm install sass gatsby-plugin-sass
+```
+
+Ensuite ajouter `gatsby-plugin-sass` dans l'array des plugins dans le fichier `gatsby-config.js`
+
+```js
+// gatsby-config.js
+/**
+ * 👋 Hey there!
+ * This file is the starting point for your new WordPress/Gatsby site! 🚀
+ * For more information about what this file is and does, see
+ * https://www.gatsbyjs.com/docs/gatsby-config/
+ *
+ */
+
+module.exports = {
+  /**
+   * Adding plugins to this array adds them to your Gatsby site.
+   *
+   * Gatsby has a rich ecosystem of plugins.
+   * If you need any more you can search here: https://www.gatsbyjs.com/plugins/
+   */
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      /**
+       * First up is the WordPress source plugin that connects Gatsby
+       * to your WordPress site.
+       *
+       * visit the plugin docs to learn more
+       * https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-source-wordpress/README.md
+       *
+       */
+      resolve: `gatsby-source-wordpress`, // <----- ICI
+      options: {
+        // the only required plugin option for WordPress is the GraphQL url.
+        url:
+          process.env.WPGRAPHQL_URL || `https://pehaa.xyz/gatsby-demo/graphql`,
+      },
+    },
+    // ... comme avant
+```
+
+Changez l'extension de fichier `src/css/style.css` pour `src/css/style.scss` - vous pouvez y utiliser scss maintenant.
+
+N'oubliez pas de modifier aussi le fichier `gatsby-browser`
+
+```js
+// gatsby-browser.js
+// ...
+// custom CSS styles
+// avant import "./src/css/style.css"
+import "./src/css/style.scss"
+```
+
+Redémarrez le serveur.
